@@ -64,6 +64,6 @@ app.get('/pasted', (req, res) => {
 app.get('/t', (req, res) => {
   res.redirect('/')
 })
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log('Server Ready!');
 });
